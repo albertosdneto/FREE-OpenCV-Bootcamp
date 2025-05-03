@@ -1,0 +1,26 @@
+# PyCharm related files
+.idea/
+*.iml
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Build and distribution
+build/
+dist/
+
+# Temporary files and logs
+*.log
+*.tmp
+*.swp
+db.sqlite3  # Se você estiver usando SQLite e não quer versionar o banco de dados
+
+# OS generated files
+.DS_Store
+Thumbs.db
